@@ -1,6 +1,6 @@
-# projeto_pessoal
+# Registro de paciente
 
-A new Flutter project.
+Programa em flutter para desktop de controle de paciente em um hospital e geração de etiquetas de indentifiação
 
 ## Getting Started
 

@@ -1,3 +1,4 @@
+// ignore: depend_on_referenced_packages
 import 'package:path/path.dart';
 import 'package:projeto_pessoal/page/paciente/paciente.dart';
 import 'package:sqflite/sqflite.dart';
@@ -27,7 +28,8 @@ class DatabaseHelper {
         local varchar(200),
         rg INTEGER,
         exame varchar(200),
-        data varchar(50)
+        data varchar(50),
+        impresso varchar(1)
       )
     ''');
   }
